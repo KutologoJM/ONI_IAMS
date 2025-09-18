@@ -1,6 +1,6 @@
 title: ONI IAMS GitHub Pages Site
 description: Mixing Jekyll and plain HTML
-theme: minima
+theme: hacker
 
 exclude:
   - docs/
