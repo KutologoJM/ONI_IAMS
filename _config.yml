@@ -1,0 +1,7 @@
+title: ONI IAMS GitHub Pages Site
+description: Mixing Jekyll and plain HTML
+theme: minima
+
+exclude:
+  - docs/
+  - README.md
