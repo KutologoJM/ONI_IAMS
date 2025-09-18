@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Axios Proof of Concept</title>
+  <!-- Axios via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <h1>Axios Fetch Example</h1>
+  <button id="fetchBtn">Fetch Random Data</button>
+  <pre id="output"></pre>
+
+  <script>
+    const btn = document.getElementById('fetchBtn');
+    const output = document.getElementById('output');
+
+    btn.addEventListener('click', async () => {
+      try {
+        // Using JSONPlaceholder for dummy API data
+        const response = await axios.get('https://jsonplaceholder.typicode.com/posts/1');
+        output.textContent = JSON.stringify(response.data, null, 2);
+      } catch (error) {
+        output.textContent = "Error fetching data: " + error;
+      }
+    });
+  </script>
+</body>
+</html>
