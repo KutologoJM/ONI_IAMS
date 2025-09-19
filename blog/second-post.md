@@ -2,6 +2,7 @@
 layout: post
 title: "My Sample Post with HTML"
 date: 2025-09-19
+author: NephalemDev
 ---
 
 This is a regular **Markdown** paragraph.
