@@ -7,3 +7,4 @@ title: Blog
 Welcome to my blog.
 
 - [First Post](first-post.html)
+- [Second Post](second-post.md)
